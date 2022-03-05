@@ -24,7 +24,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: "${{ steps.gem-version.outputs.VERSION }}"
           name: Forsis ${{ steps.gem-version.outputs.VERSION }}
-          bodyFile: "./docs/release_notes/v0.2.0.md"
+          bodyFile: "./docs/release_notes/v0.3.0.md"
       - name: Publish to RubyGems
         run: ./scripts/release.sh ${{ secrets.RUBYGEMS_API_KEY }}
           
