@@ -20,12 +20,12 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.5'
+  spec.required_ruby_version = '>= 2.6.0'
 
   # Don't add a dependency to fastlane or fastlane_re
   # since this would cause a circular dependency
 
-  spec.add_dependency('nokogiri', '~> 1.12.5')
+  spec.add_dependency('nokogiri', '>= 1.13.2')
 
   spec.add_development_dependency('bundler', '>= 1.15.0', '< 3.0.0')
   spec.add_development_dependency('fastlane', '~> 2.185')
