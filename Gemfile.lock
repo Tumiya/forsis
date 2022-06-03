@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     fastlane-plugin-forsis (0.3.0)
-      nokogiri (>= 1.13.2)
+      nokogiri (>= 1.13.6)
 
 GEM
   remote: https://rubygems.org/
@@ -170,7 +170,7 @@ GEM
     multipart-post (2.0.0)
     nanaimo (0.3.0)
     naturally (2.2.1)
-    nokogiri (1.13.3)
+    nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     optparse (0.1.1)
